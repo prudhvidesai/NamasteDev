@@ -5,7 +5,8 @@
 // heading.innerHTML="Hello World..."
 
 // root.appendChild(heading)
-
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 const parent = React.createElement("div",{id:"parent"},[
 React.createElement("h1",{id:"child"},"Hello World..."),
