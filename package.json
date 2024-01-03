@@ -4,7 +4,7 @@
   "description": "hello react",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html"
   },
   "keywords": [
     "react"
