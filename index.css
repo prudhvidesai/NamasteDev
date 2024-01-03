@@ -27,6 +27,7 @@
     align-self: center;
     margin-top: 5px;
     margin-left: 5px;
+    cursor: pointer;
 }
 .nav-list-cont{
     list-style: none;
@@ -47,7 +48,7 @@
 }
 .resto-card{
     height: 300px;
-    width: 250px;
+    width: 300px;
     padding: 5px;
     background-color:lavender;
     display: flex;
