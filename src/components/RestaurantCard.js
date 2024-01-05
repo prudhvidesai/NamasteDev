@@ -6,8 +6,8 @@ const RestaurantCard = (props)=>{
      
      
      const img = resData.info.cloudinaryImageId
-     console.log(img)
-     
+     //console.log(img)
+     //data.cards[3].card.card.gridElements.infoWithStyle.restaurants
      return(
          <div className="resto-card">
          <img src={API_URL+img}

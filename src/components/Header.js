@@ -1,7 +1,16 @@
 import { LOGO_URL } from "../../utils/constants"
-
+import { useState } from "react"
 
 const Header = ()=>{
+
+    const[isClicked,setisClicked]=useState("Login")
+
+    
+
+    const handleLoginClick = ()=>{
+        isClicked==="Login"?setisClicked("Logout"):setisClicked("Login")
+    }
+
     return(
         <div className="header-cont">
             <div>
@@ -14,6 +23,7 @@ const Header = ()=>{
                         <li>About</li>
                         <li>Contact</li>
                     </ul>
+                    <button l-btn onClick={handleLoginClick}>{isClicked}</button>
                  </div>
             
 

@@ -39,6 +39,7 @@
 .nav-cont{
     margin-right: 65px;
     align-self: center;
+    display: flex;
 }
 .resto-cont{
     display: flex;
@@ -71,5 +72,25 @@
     margin-top: 25px;
     height: 30px;
     width: 120px;
+    cursor: pointer;
+}
+.shim-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+.shim-card{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    background-color:lavender;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.l-btn{
     cursor: pointer;
 }
