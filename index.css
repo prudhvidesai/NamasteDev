@@ -98,3 +98,8 @@
     text-decoration: none;
     margin-right: 5px;
 }
+.user-card{
+    padding: 25px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
