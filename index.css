@@ -94,3 +94,7 @@
 .l-btn{
     cursor: pointer;
 }
+.link{
+    text-decoration: none;
+    margin-right: 5px;
+}

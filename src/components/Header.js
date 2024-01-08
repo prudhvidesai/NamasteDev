@@ -1,5 +1,6 @@
 import { LOGO_URL } from "../../utils/constants"
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 const Header = ()=>{
 
@@ -19,9 +20,10 @@ const Header = ()=>{
                  </div>
                  <div className="nav-cont">
                     <ul className="nav-list-cont">
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <Link to={"/"} className="link"><li>Home</li></Link>
+                        <Link to={"/about"} className="link"><li>About</li></Link>
+                        <Link to={"/contact"} className="link"><li>Contact</li></Link>
+                        
                     </ul>
                     <button l-btn onClick={handleLoginClick}>{isClicked}</button>
                  </div>
