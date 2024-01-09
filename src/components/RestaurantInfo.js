@@ -8,8 +8,8 @@ const RestaurantInfo = ()=>{
     const [rlist,setRlist]=useState(null)
     const{resId}=useParams()
     const url = RINFO_API+resId
-    console.log(url)
-    console.log(resId)
+    //console.log(url)
+    //console.log(resId)
     useEffect(()=>{
         getRestaurantInfo()
     },[])
